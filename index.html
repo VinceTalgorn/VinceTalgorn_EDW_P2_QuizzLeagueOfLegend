@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quizz JS</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1><span>Quizz </span>Culture Générale League Of Legend. ✅</h1>
+        <div class="bloc_general">
+            <form class="quizz_form">
+                <!--Question 1-->
+                <div class="question_bloc">
+                    <h4>Quel champion est surnommé "le Virtuose" ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Jhin"
+                            name="q1"
+                            value="a"
+                            required
+                        />
+                        <label for="Jhin">Jhin</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Sona" name="q1" value="b" />
+                        <label for="Sona">Sona</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Jinx" name="q1" value="c" />
+                        <label for="Jinx">Jinx</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Twisted Fate"
+                            name="q1"
+                            value="d"
+                        />
+                        <label for="Twisted Fate">Twisted Fate</label>
+                    </div>
+                </div>
+                <!--Question 2-->
+                <div class="question_bloc">
+                    <h4>
+                        Quand la phase de béta de "League of Legends : clash of
+                        Fates" a-t-elle été lancée ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="date1"
+                            name="q2"
+                            value="a"
+                            required
+                        />
+                        <label for="date1">31 décembre 2000</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="date2" name="q2" value="b" />
+                        <label for="date2">8 octobre 2008</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="date3" name="q2" value="c" />
+                        <label for="date3">10 avril 2009</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="date4" name="q2" value="d" />
+                        <label for="date4">24 septembre 2010</label>
+                    </div>
+                </div>
+                <!--Question 3-->
+                <div class="question_bloc">
+                    <h4>
+                        Quel champion est inspiré du jeu "Assassin's Creed"?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Rengar"
+                            name="q3"
+                            value="a"
+                            required
+                        />
+                        <label for="Rengar">Rengar</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Talon" name="q3" value="b" />
+                        <label for="Talon">Talon</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kennen" name="q3" value="c" />
+                        <label for="Kennen">Kennen</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Katarina" name="q3" value="d" />
+                        <label for="Katarina">Katarina</label>
+                    </div>
+                </div>
+                <!--Question 4-->
+                <div class="question_bloc">
+                    <h4>De quelle région vient Olaf ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Demacia"
+                            name="q4"
+                            value="a"
+                            required
+                        />
+                        <label for="Demacia">Demacia</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Ionia" name="q4" value="b" />
+                        <label for="Ionia">Ionia</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Shurima" name="q4" value="c" />
+                        <label for="Shurima">Shurima</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Freljord" name="q4" value="d" />
+                        <label for="Freljord">Freljord</label>
+                    </div>
+                </div>
+                <!--Question 5-->
+                <div class="question_bloc">
+                    <h4>
+                        Quel joueur est connu pour avoir "backdoor" en tournant
+                        autour du Nexus ennemi sans se faire attraper ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Faker"
+                            name="q5"
+                            value="a"
+                            required
+                        />
+                        <label for="Faker">Faker</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Yellowstar"
+                            name="q5"
+                            value="b"
+                        />
+                        <label for="Yellowstar">Yellowstar</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="XPeke" name="q5" value="c" />
+                        <label for="XPeke">XPeke</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ArKaDaTa" name="q5" value="d" />
+                        <label for="ArKaDaTa">ArKaDaTa</label>
+                    </div>
+                </div>
+                <!--Question 6-->
+                <div class="question_bloc">
+                    <h4>
+                        Quelle équipe est sortie championne du monde de LoL en
+                        2011 ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="FNC"
+                            name="q6"
+                            value="a"
+                            required
+                        />
+                        <label for="FNC">Fnatic (FNC)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="SKT" name="q6" value="b" />
+                        <label for="SKT">SK Telecom T1 (SKT)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="aAa" name="q6" value="c" />
+                        <label for="aAa">Against all authority (aAa)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="TSM" name="q6" value="d" />
+                        <label for="TSM">Team Solomid (TSM)</label>
+                    </div>
+                </div>
+                <!--Question 7-->
+                <div class="question_bloc">
+                    <h4>
+                        Lequel de ces champions n'a pas de skin "lune de sang"
+                        (bloodmoon) ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Shen"
+                            name="q7"
+                            value="a"
+                            required
+                        />
+                        <label for="Shen">Shen</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Zed" name="q7" value="b" />
+                        <label for="Zed">Zed</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Akali" name="q7" value="c" />
+                        <label for="Akali">Akali</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kennen" name="q7" value="d" />
+                        <label for="Kennen">Kennen</label>
+                    </div>
+                </div>
+                <!--Question 8-->
+                <div class="question_bloc">
+                    <h4>
+                        Quel joueur de LoL est connu pour ses "flashs dans les
+                        murs", un move qui porte maintenant son nom ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Insec"
+                            name="q8"
+                            value="a"
+                            required
+                        />
+                        <label for="Insec">Insec</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Madlife" name="q8" value="b" />
+                        <label for="Madlife">Madlife</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="DomingGo" name="q8" value="c" />
+                        <label for="DomingGo">DomingGo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Zerator" name="q8" value="d" />
+                        <label for="Zerator">Zerator</label>
+                    </div>
+                </div>
+                <!--Question 9-->
+                <div class="question_bloc">
+                    <h4>Qui a libéré Renekton et Xerath ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Sivir"
+                            name="q9"
+                            value="a"
+                            required
+                        />
+                        <label for="Sivir">Sivir</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Nasus" name="q9" value="b" />
+                        <label for="Nasus">Nasus</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Azir" name="q9" value="c" />
+                        <label for="Azir">Azir</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Cassiopeia"
+                            name="q9"
+                            value="d"
+                        />
+                        <label for="Cassiopeia">Cassiopeia</label>
+                    </div>
+                </div>
+                <!--Question 10-->
+                <div class="question_bloc">
+                    <h4>
+                        A qui appartient cette citation : "Je n'aurais jamais
+                        pensé que vous me choisiriez"
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Corki"
+                            name="q10"
+                            value="a"
+                            required
+                        />
+                        <label for="Corki">Corki</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Amumu" name="q10" value="b" />
+                        <label for="Amumu">Amumu</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Veigar" name="q10" value="c" />
+                        <label for="Veigar">Veigar</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Braum" name="q10" value="d" />
+                        <label for="Braum">Braum</label>
+                    </div>
+                </div>
+                <!--Question 11-->
+                <div class="question_bloc">
+                    <h4>
+                        Quel est le tout premier champion designé par Riot Games
+                        ?
+                    </h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Singed"
+                            name="q11"
+                            value="a"
+                            required
+                        />
+                        <label for="Singed">Singed</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Annie" name="q11" value="b" />
+                        <label for="Annie">Annie</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Alistar" name="q11" value="c" />
+                        <label for="Alistar">Alistar</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Ashe" name="q11" value="d" />
+                        <label for="Ashe">Ashe</label>
+                    </div>
+                </div>
+                <!--Question 12-->
+                <div class="question_bloc">
+                    <h4>Qui a tué Urf ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Warwick"
+                            name="q12"
+                            value="a"
+                            required
+                        />
+                        <label for="Warwick">Warwick</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Hecarim" name="q12" value="b" />
+                        <label for="Hecarim">Hecarim</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kayn" name="q12" value="c" />
+                        <label for="Kayn">Kayn</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Shaco" name="q12" value="d" />
+                        <label for="Shaco">Shaco</label>
+                    </div>
+                </div>
+                <!--Question 13-->
+                <div class="question_bloc">
+                    <h4>Quel est le plat traditionnel de Noxus ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Hamburger"
+                            name="q13"
+                            value="a"
+                            required
+                        />
+                        <label for="Hamburger">Les hamburgers</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Panini" name="q13" value="b" />
+                        <label for="Panini">Les paninis</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Pizza" name="q13" value="c" />
+                        <label for="Pizza">Les pizzas</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Tacos" name="q13" value="d" />
+                        <label for="Tacos">Les tacos</label>
+                    </div>
+                </div>
+                <!--Question 14-->
+                <div class="question_bloc">
+                    <h4>Qui a transformé Warwick en Loup-Garou ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Soraka"
+                            name="q14"
+                            value="a"
+                            required
+                        />
+                        <label for="Soraka">Soraka</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Ryse" name="q14" value="b" />
+                        <label for="Ryse">Ryse</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Morgana" name="q14" value="c" />
+                        <label for="Morgana">Morgana</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Yorick" name="q14" value="d" />
+                        <label for="Yorick">Yorick</label>
+                    </div>
+                </div>
+                <!--Question 15-->
+                <div class="question_bloc">
+                    <h4>Qui a créé Blitzcrank ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Urgot"
+                            name="q15"
+                            value="a"
+                            required
+                        />
+                        <label for="Urgot">Urgot</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Tresh" name="q15" value="b" />
+                        <label for="Tresh">Tresh</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Zilean" name="q15" value="c" />
+                        <label for="Zilean">Zilean</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Viktor" name="q15" value="d" />
+                        <label for="Viktor">Viktor</label>
+                    </div>
+                </div>
+                <!--Question 16-->
+                <div class="question_bloc">
+                    <h4>Qui a tué les parents de Vayne ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Twitch"
+                            name="q16"
+                            value="a"
+                            required
+                        />
+                        <label for="Twitch">Twitch</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Evelyne" name="q16" value="b" />
+                        <label for="Evelyne">Evelyne</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Sylas" name="q16" value="c" />
+                        <label for="Sylas">Sylas</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Riven" name="q16" value="d" />
+                        <label for="Riven">Riven</label>
+                    </div>
+                </div>
+                <!--Question 17-->
+                <div class="question_bloc">
+                    <h4>Qui est le frère de Darius ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Garen"
+                            name="q17"
+                            value="a"
+                            required
+                        />
+                        <label for="Garen">Garen</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Draven" name="q17" value="b" />
+                        <label for="Draven">Draven</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Lucian" name="q17" value="c" />
+                        <label for="Lucian">Lucian</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Jayce" name="q17" value="d" />
+                        <label for="Jayce">Jayce</label>
+                    </div>
+                </div>
+                <!--Question 18-->
+                <div class="question_bloc">
+                    <h4>Quel élément Taliyah contrôle-t-elle ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Feu"
+                            name="q18"
+                            value="a"
+                            required
+                        />
+                        <label for="Feu">Le feu</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Glace" name="q18" value="b" />
+                        <label for="Glace">La glace</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Pierre" name="q18" value="c" />
+                        <label for="Pierre">La pierre</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Vent" name="q18" value="d" />
+                        <label for="Vent">Le vent</label>
+                    </div>
+                </div>
+                <!--Question 19-->
+                <div class="question_bloc">
+                    <h4>Quel personnage était l'apprenti de Master Yi ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Wukong"
+                            name="q19"
+                            value="a"
+                            required
+                        />
+                        <label for="Wukong">Wukong</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Yasuo" name="q19" value="b" />
+                        <label for="Yasuo">Yasuo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Xin" name="q19" value="c" />
+                        <label for="Xin">Xin Zhao</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Yone" name="q19" value="d" />
+                        <label for="Yone">Yone</label>
+                    </div>
+                </div>
+                <!--Question 20-->
+                <div class="question_bloc">
+                    <h4>Avec quoi Jax se bat-il ?</h4>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Epee"
+                            name="q20"
+                            value="a"
+                            required
+                        />
+                        <label for="Epee">Une épée</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="Lampadaire"
+                            name="q20"
+                            value="b"
+                        />
+                        <label for="Lampadaire">Un lampadaire</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Hache" name="q20" value="c" />
+                        <label for="Hache">Une hache</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Lance" name="q20" value="d" />
+                        <label for="Lance">Une lance</label>
+                    </div>
+                </div>
+                <button class="submit">Valider ✅</button>
+            </form>
+            <div class="results">
+                <h2>
+                    Cliquez sur <span>valider</span> pour voir les
+                    <span>résultats</span>
+                </h2>
+                <p class="mark"></p>
+                <p class="help"></p>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
