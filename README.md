@@ -1,7 +1,7 @@
 # Calcul IMC
 
 -   Projet 2 de la série de 20 projets en JavaScript de l'école du web.
--   Accès au [Quizz League Of legend]().
+-   Accès au [Quizz League Of Legend](https://vincetalgorn.github.io/VinceTalgorn_EDW_P2_QuizzLeagueOfLegend/).
 
 ![screenshot du site](./images/Accueil_Desktop.png)
 
