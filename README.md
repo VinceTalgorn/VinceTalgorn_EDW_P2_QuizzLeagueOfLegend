@@ -1,4 +1,4 @@
-# Calcul IMC
+# Création d'un quizz sur le thème de league of legend
 
 -   Projet 2 de la série de 20 projets en JavaScript de l'école du web.
 -   Accès au [Quizz League Of Legend](https://vincetalgorn.github.io/VinceTalgorn_EDW_P2_QuizzLeagueOfLegend/).
